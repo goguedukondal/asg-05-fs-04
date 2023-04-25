@@ -1,0 +1,28 @@
+.nav{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+ 
+  align-items: center;
+  height: 40px;
+  width:100px;
+  margin-top: 20px;
+}
+button{
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 25px;
+}
+button:hover{
+  background-color: pink;
+  color: black;
+  border-radius: 5px;
+}
