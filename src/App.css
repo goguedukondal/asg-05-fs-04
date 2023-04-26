@@ -1,10 +1,10 @@
-.nav{
+.nav_Container{
   display: flex;
   background-color: black;
   color: white;
   justify-content: space-around;
 }
-.links{
+.btns{
   display: flex;
   justify-content: space-evenly;
   background-color: black;
