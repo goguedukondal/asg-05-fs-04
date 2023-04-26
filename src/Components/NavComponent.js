@@ -1,30 +1,30 @@
 import React from 'react'
 
-function Nav() {
+function NavComponent() {
   return (
-    <div className='nav'>
+    <div className='nav_Container'>
       <div>
         <h1>LOGO</h1>
       </div>
-      <div className='links'>
-        <section>
+      <div className='btns'>
+       
             <button href='#'>HOME</button>
-        </section>
-        <section>
+       
+       
         <button href='#'>ABOUT</button>
-        </section>
-        <section>
+       
+       
         <button href='#'>MENU</button>
-        </section>
-        <section>
+      
+      
         <button href='#'>ORDER</button>
-        </section>
-        <section>
+       
+      
         <button href='#'>CONTACT</button>
-        </section>
+        
       </div>
     </div>
   )
 }
 
-export default Nav
+export default NavComponent
